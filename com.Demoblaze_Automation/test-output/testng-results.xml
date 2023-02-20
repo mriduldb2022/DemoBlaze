@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38366" started-at="2023-01-28T23:42:51Z" finished-at="2023-01-28T23:43:30Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demoblaze.runner.FeatureRunner@2d1ef81a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="38366" started-at="2023-01-28T23:42:51Z" finished-at="2023-01-28T23:43:30Z">
+      <class name="com.demoblaze.runner.FeatureRunner">
+        <test-method status="PASS" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.demoblaze.runner.FeatureRunner@2d1ef81a]" name="setUpClass" is-config="true" duration-ms="360" started-at="2023-01-28T23:42:51Z" finished-at="2023-01-28T23:42:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@30c4e352]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demoblaze.runner.FeatureRunner@2d1ef81a]" name="runScenario" duration-ms="24949" started-at="2023-01-28T23:42:52Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T23:43:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User can login using the correct username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User will check the functionality of login"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Welcome mriduldb@yahoo.com] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Welcome mriduldb@yahoo.com] but found []
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.demoblaze.Stepdef.DemoBlazeLoginTestStepDef.user_is_successfully_logged_in_and_username_is_displayed(DemoBlazeLoginTestStepDef.java:57)
+at ✽.User is successfully logged in and username is displayed(file:///Users/mridulmac2019/eclipse-workspace/com.Demoblaze_Automation/Features/DemoBlazeLoginTest.feature:11)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demoblaze.runner.FeatureRunner@2d1ef81a]" name="runScenario" duration-ms="3360" started-at="2023-01-28T23:43:17Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T23:43:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This scenario tests all the invalid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demoblaze.runner.FeatureRunner@2d1ef81a]" name="runScenario" duration-ms="2975" started-at="2023-01-28T23:43:20Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T23:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This scenario tests all the invalid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demoblaze.runner.FeatureRunner@2d1ef81a]" name="runScenario" duration-ms="2937" started-at="2023-01-28T23:43:23Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T23:43:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This scenario tests all the invalid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.demoblaze.runner.FeatureRunner@2d1ef81a]" name="runScenario" duration-ms="3246" started-at="2023-01-28T23:43:26Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-28T23:43:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["This scenario tests all the invalid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Testing Login functionality to the application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.demoblaze.runner.FeatureRunner@2d1ef81a]" name="tearDownClass" is-config="true" duration-ms="516" started-at="2023-01-28T23:43:29Z" finished-at="2023-01-28T23:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.demoblaze.runner.FeatureRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
